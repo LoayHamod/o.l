@@ -157,6 +157,7 @@ body{
     font-size: 30px;
     transition: all 0.5s;
 }
+
 .service-section .service-column .single-service .content .main-title{
     
     margin-bottom: 20px;
@@ -238,6 +239,31 @@ opacity: 0.8;
 .projects-section .card .project-date{
     color: #777;
 }
+
+.btn-container-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-project {
+  padding: 1.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #ec0a74;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.btn-project:hover{
+  background-color: transparent;
+    color:#ec0a74;
+}
 .stats-section{
     padding: 0;
     margin: 0;
@@ -252,22 +278,21 @@ section{
 
 }
 .wrapper-stats{
- 
-    position: absolute;
-    width: 80vw;
-    transform: translate(-50%,-50%);
-    top: 3800px;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    left: 50%;
+    /* position: absolute; */
+    width: 100%;
+    /* transform: translate(-50%,-50%); */
+    /* top: 3800px; */
+    /* padding-top: 150px;
+    padding-bottom: 100px; */
+    /* left: 50%; */
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    align-items: center;
+    /* gap: 10px; */
 }
 .container-stats{
-    width: 28vmin;
-    height: 28vmin;
-   
+    width: 30vmin;
+    height: 345px;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -342,7 +367,7 @@ span.text{
     color:  rgb(255, 0, 81) ;
 }
 .https{
-    text-align: center;
+  
 }
 .container-contact {
     position: relative;
